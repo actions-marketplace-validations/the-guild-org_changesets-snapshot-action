@@ -66,7 +66,7 @@ jobs:
       # this is where you do your regular setup, dependencies installation and so on
 
       - name: Release Snapshot
-        uses: "the-guild-org/changesets-snapshot-action@main"
+        uses: "the-guild-org/changesets-snapshot-action@v0.0.1"
         with:
           tag: alpha
           prepareScript: "yarn build"
